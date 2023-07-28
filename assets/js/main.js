@@ -20,10 +20,11 @@
 
 	// Play initial animations on page load.
 	$window.on('load', function () {
-		console.log("qwe")
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+			}, 100); 
+
+		console.log("qwerty")
 		});
 
 	// Scrolly.
