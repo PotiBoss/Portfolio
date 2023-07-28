@@ -7,5 +7,4 @@ function SendEmail(body)
     var msg = document.getElementById("message").value;
 
     window.location.href = "mailto:mikolajpotera@gmail.com?subject=" + sub;
-   // window.location.href = "mailto:mikolajpotera@gmail.com?subject=qwe";
 }
