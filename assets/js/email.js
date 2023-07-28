@@ -1,0 +1,4 @@
+SendEmail()
+{
+    console.log("asd")
+}
