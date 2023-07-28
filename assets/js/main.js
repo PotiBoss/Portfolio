@@ -24,7 +24,6 @@
 				$body.removeClass('is-preload');
 			}, 100); 
 
-		console.log("qwerty")
 		});
 
 	// Scrolly.
