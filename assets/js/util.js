@@ -434,8 +434,6 @@
 			$this
 				.on('submit', function () {
 
-					//document.write("qwe");
-
 					$this.find('input[type=text],input[type=password],textarea')
 						.each(function(event) {
 
