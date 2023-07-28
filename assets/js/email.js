@@ -1,4 +1,4 @@
-SendEmail()
+function SendEmail()
 {
     console.log("asd")
 }
