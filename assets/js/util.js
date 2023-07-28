@@ -453,7 +453,7 @@
 
 						});
 
-				})*/
+				})
 				.on('reset', function(event) {
 
 					event.preventDefault();
@@ -515,7 +515,7 @@
 						});
 
 				});
-
+				*/
 		return $this;
 
 	};
