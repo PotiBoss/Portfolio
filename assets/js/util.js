@@ -432,9 +432,8 @@
 
 		// Events.
 			$this
-				/*.on('submit', function () {
+				.on('submit', function () {
 
-					console.log("qwerty")
 
 					$this.find('input[type=text],input[type=password],textarea')
 						.each(function(event) {
@@ -515,7 +514,7 @@
 						});
 
 				});
-				*/
+				
 		return $this;
 
 	};
