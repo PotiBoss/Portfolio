@@ -432,7 +432,7 @@
 
 		// Events.
 			$this
-				.on('submit', function () {
+				/*.on('submit', function () {
 
 					console.log("qwerty")
 
@@ -453,7 +453,7 @@
 
 						});
 
-				})
+				})*/
 				.on('reset', function(event) {
 
 					event.preventDefault();
