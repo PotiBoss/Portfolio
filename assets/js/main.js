@@ -19,7 +19,8 @@
 		});
 
 	// Play initial animations on page load.
-		$window.on('load', function() {
+	$window.on('load', function () {
+		document.write("qwe");
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
