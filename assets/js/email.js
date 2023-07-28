@@ -1,4 +1,4 @@
-function SendEmail()
+function SendEmail(body)
 {
     console.log("asd")
     var sub = document.getElementById("subject").value;
@@ -6,6 +6,6 @@ function SendEmail()
     var mail = document.getElementById("email").value;
     var msg = document.getElementById("message").value;
 
-    window.location.href = "mailto:mikolajpotera@gmail.com?subject" + sub + "&body" + msg;
+    window.location.href = "mailto:mikolajpotera@gmail.com?subject" + sub + "&body" + body;
 
 }
