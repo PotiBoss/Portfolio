@@ -6,5 +6,5 @@ function SendEmail()
     var mail = document.getElementById("email").value;
     var msg = document.getElementById("message").value;
 
-    window.location.href = "mailto:mikolajpotera@gmail.com?subject=Message from " + name + ": " + sub + "&body" + msg;
+    window.location.href = "mailto:mikolajpotera@gmail.com?subject=Message from " + name + ": " + sub + "&body=" + msg;
 }
